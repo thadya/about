@@ -23,7 +23,7 @@
     }
     .about-section-content{
     
-    margin: auto;
+    margin: 0;
     }
     @media  (max-width: 960px){
     .about-section{
