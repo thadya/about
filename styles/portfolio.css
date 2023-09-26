@@ -1,17 +1,29 @@
+:root{
+    --branding-color: #6c63ff;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+
 .about-section h1{
     font-size: 64px;
     line-height:80px;
     }
+    a.btn-branding {
+    background: var(--branding-color);
+    color: white;
+ 
+    }
     
     .about-section h2{
     font-size: 18px;
-    font-family: var(default);
+    font-family: var(--default-font-family);
     }
     .about-section{
     padding: 160px 20px;
     }
-    .about-section-contents{
-    margin: 30px;
+    .about-section-content{
+    
+    margin: auto;
     }
     @media  (max-width: 960px){
     .about-section{
