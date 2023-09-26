@@ -2,21 +2,23 @@
     --branding-color: #6c63ff;
     --default-font-family: "Poppins", sans-serif;
     --secondary-color: #f9f7fe;
+    --heading-font-family: "Playfair Display", serif;
 }
-hero h2{
+.hero h2{
     font-family: var(--heading-font-family);
     font-weight: normal;
     line-height: 1.5;
     font-size: 24px;
     text-align: center;
 }
-hero h1{
+.hero h1{
     font-size: 96px;
     line-height: 1.5;
     font-weight: bold;
     text-align: center;
+    font-family: var(--heading-font-family);
 }
-hero p{
+.hero p{
     font-size: 36px;
     font-weight: bold;
     margin: 0;
@@ -97,7 +99,7 @@ nav li{
   logo {
     max-height: 40px;
   }
-  hero{
+  .hero{
   text-align: center;
   padding: 160px 20px;
   background: var(--secondary-color);
