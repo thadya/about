@@ -61,7 +61,7 @@
     
     }
     .content-container{
-    padding: 160px 20px;
+    padding: 60px 20px;
     }
     .content{
     margin: 30px;
@@ -101,7 +101,7 @@ nav li{
   }
   .hero{
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
   background: var(--secondary-color);
   }
   footer .email-link{
